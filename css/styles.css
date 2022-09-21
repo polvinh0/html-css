@@ -1,0 +1,42 @@
+/* 
+PARA USAR O CSS EXERTNO DEVEMOS LINKAR ELE AO HTML DESTINO
+*/
+
+p{
+    color:green;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+body{
+    background-color: black;
+    font-family: 'Roboto', sans-serif; /* fallback */
+}
+    /* TIPOS DE SELETOR BASICO
+    1) por Elemento
+    2) Por id(#) -> estilização unica
+    3) Por class (.) -> estlização para varios
+    */
+
+   h1, h2, h3 {
+    color: white
+    }
+    #meu-h1{
+        font-weight: 100;
+    }
+    .cabecalho{
+        color: crimson;
+        text-decoration: underline;
+        font-weight: 900;
+    }
+    .quadrado {
+        height: 250px;
+        width: 250px;
+        background-color: yellow;
+        border-radius: 8px;
+
+    }
+    .banner {
+        width: 100%;
+        border-radius: 16px;
+    }
