@@ -1,0 +1,48 @@
+header{
+    background-color: green;
+    height: 100px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}    
+body{
+    background-color: rgb(252, 252, 252);
+}
+.libertadores {
+   color: #4caf50;
+}
+.sulamericana {
+    color: #ff9800;
+}
+.rebaixamento {
+   color: #f44336;
+}
+td{
+    border-top: 1px solid gray;
+    text-align: center;
+    padding: 5px;
+    
+}
+thead {
+    color: rgb(78, 75, 75);
+    
+}
+th{
+     border: 1px solid;
+    text-align: center;
+    padding: 5px; 
+}
+.time {
+    text-align: left;
+}
+table {
+    color: grey;
+    border-collapse: collapse;
+    margin: auto;
+    border: solid 1px;
+    border-radius: 8px;
+    
+}

@@ -6,17 +6,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/styletabela.css">
 </head>
 
 <body>
+    <header>Brasileirão 2022</header>
     <section>
-    <table border="1" cellpadding="4" style="border-collapse: collapse;">
+        <div id="tabela">
+    <table>
     <thead>
         <tr>
             <th colspan="12">Classificação Brasileirão 2022</th>
         </tr>
         <tr>           
-            <th></th>
+            
             <th>#</th>
             <th>TIME</th>
             <th>P</th>
@@ -32,10 +35,10 @@
     </thead>
     <tbody>
         
-            <tr>
-            <td  rowspan="6">Libertadores</td>
+        <tr class="libertadores">
+           
             <td>1</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" alt="Palmeiras" height="20px"> Palmeiras</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2019/07/06/Palmeiras.svg" alt="Palmeiras" height="20px"> Palmeiras</td>
             <td>57</td>
             <td>27</td>
             <td>16</td>
@@ -47,9 +50,9 @@
             <td>70</td>
                
         </tr>
-        <tr>
+        <tr class="libertadores">
             <td>2</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg" alt="Fluminense" height="20px"> Fluminense</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/11/fluminense.svg" alt="Fluminense" height="20px"> Fluminense</td>
             <td>48</td>
             <td>27</td>
             <td>14</td>
@@ -60,9 +63,9 @@
             <td>11</td>
             <td>59</td>
         </tr>
-        <tr>
+        <tr class="libertadores">
             <td>3</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg" alt="Internacional" height="20px"> Internacional</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/11/internacional.svg" alt="Internacional" height="20px"> Internacional</td>
             <td>46</td>
             <td>26</td>
             <td>12</td>
@@ -73,9 +76,9 @@
             <td>16</td>
             <td>59</td>
         </tr>
-        <tr>
+        <tr class="libertadores">
             <td>4</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg" alt="Flamengo" height="20px" width="20px"> Flamengo</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/04/10/Flamengo-2018.svg" alt="Flamengo" height="20px" width="20px"> Flamengo</td>
             <td>45</td>
             <td>27</td>
             <td>13</td>
@@ -86,9 +89,9 @@
             <td>18</td>
             <td>56</td>
         </tr>
-        <tr>
+        <tr class="libertadores">
             <td>5</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg" alt="Corinthians" height="20px" width="20px"> Corinthians</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2019/09/30/Corinthians.svg" alt="Corinthians" height="20px" width="20px"> Corinthians</td>
             <td>44</td>
             <td>27</td>
             <td>12</td>
@@ -99,9 +102,9 @@
             <td>4</td>
             <td>54</td>
         </tr>
-        <tr>
+        <tr class="libertadores">
             <td>6</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg" alt="Athletico-PR" height="20px" width="20px"> Athletico-PR</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2019/09/09/Athletico-PR.svg" alt="Athletico-PR" height="20px" width="20px"> Athletico-PR</td>
             <td>44</td>
             <td>27</td>
             <td>12</td>
@@ -112,10 +115,10 @@
             <td>2</td>
             <td>54</td>
         </tr>
-        <tr>
-            <td rowspan="6">Sulamericana</td>
+        <tr class="sulamericana">
+            
             <td>7</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" alt="Athletico-MG" height="20px" width="20px"> Athletico-MG</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/10/atletico-mg.svg" alt="Athletico-MG" height="20px" width="20px"> Athletico-MG</td>
             <td>40</td>
             <td>27</td>
             <td>10</td>
@@ -126,9 +129,9 @@
             <td>4</td>
             <td>49</td>
         </tr>
-        <tr>
+        <tr class="sulamericana">
             <td>8</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg" alt="America-MG" height="20px" width="20px"> America-MG</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2019/02/28/America-MG-VERDE-fev2019-01.svg" alt="America-MG" height="20px" width="20px"> America-MG</td>
             <td>39</td>
             <td>27</td>
             <td>11</td>
@@ -139,9 +142,9 @@
             <td>-2</td>
             <td>48</td>
         </tr>
-        <tr>
+        <tr class="sulamericana">
             <td>9</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg" alt="Goiás" height="20px" width="20px"> Goiás</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2021/03/01/GOIAS-2021.svg" alt="Goiás" height="20px" width="20px"> Goiás</td>
             <td>37</td>
             <td>27</td>
             <td>9</td>
@@ -152,9 +155,9 @@
             <td>-3</td>
             <td>46</td>
         </tr>
-        <tr>
+        <tr class="sulamericana">
             <td>10</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg" alt="Botafogo" height="20px" width="20px"> Botafogo</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2019/02/04/botafogo-svg.svg" alt="Botafogo" height="20px" width="20px"> Botafogo</td>
             <td>34</td>
             <td>27</td>
             <td>9</td>
@@ -165,9 +168,9 @@
             <td>-3</td>
             <td>42</td>
         </tr>
-        <tr>
+        <tr class="sulamericana">
             <td>11</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg" alt="Santos" height="20px" width="20px"> Santos</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/12/santos.svg" alt="Santos" height="20px" width="20px"> Santos</td>
             <td>34</td>
             <td>27</td>
             <td>8</td>
@@ -178,9 +181,9 @@
             <td>4</td>
             <td>42</td>
         </tr>
-        <tr>
+        <tr class="sulamericana">
             <td>12</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg" alt="Red Bull Bragantino" height="20px" width="20px"> Red Bull Bragantino</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2021/06/28/bragantino.svg" alt="Red Bull Bragantino" height="20px" width="20px"> Red Bull Bragantino</td>
             <td>34</td>
             <td>27</td>
             <td>8</td>
@@ -192,9 +195,9 @@
             <td>42</td>
         </tr>
         <tr>
-            <td rowspan="4"></td>
+           
             <td>13</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg" alt="São Paulo" height="20px" width="20px"> São Paulo</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/11/sao-paulo.svg" alt="São Paulo" height="20px" width="20px"> São Paulo</td>
             <td>34</td>
             <td>27</td>
             <td>7</td>
@@ -207,7 +210,7 @@
         </tr>
         <tr>
             <td>14</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg" alt="Fortaleza" height="20px" width="20px"> Fortaleza</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2021/09/19/Fortaleza_2021_1.svg" alt="Fortaleza" height="20px" width="20px"> Fortaleza</td>
             <td>31</td>
             <td>27</td>
             <td>8</td>
@@ -220,7 +223,7 @@
         </tr>
         <tr>
             <td>15</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2019/10/10/ceara.svg" alt="Ceará" height="20px" width="20px"> Ceará</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2019/10/10/ceara.svg" alt="Ceará" height="20px" width="20px"> Ceará</td>
             <td>31</td>
             <td>27</td>
             <td>6</td>
@@ -233,7 +236,7 @@
         </tr>
         <tr>
             <td>16</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg" alt="Coritiba" height="20px" width="20px"> Coritiba</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2018/03/11/coritiba.svg" alt="Coritiba" height="20px" width="20px"> Coritiba</td>
             <td>28</td>
             <td>27</td>
             <td>8</td>
@@ -244,10 +247,9 @@
             <td>-15</td>
             <td>35</td>
         </tr>
-        <tr>
-            <td rowspan="4">Rebaixamento</td>
+        <tr class="rebaixamento">
             <td>17</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/09/04/avai-futebol-clube.svg" alt="Avaí" height="20px" width="20px"> Avaí</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/09/04/avai-futebol-clube.svg" alt="Avaí" height="20px" width="20px"> Avaí</td>
             <td>28</td>
             <td>27</td>
             <td>7</td>
@@ -258,9 +260,9 @@
             <td>-13</td>
             <td>35</td>
         </tr>
-        <tr>
+        <tr class="rebaixamento">
             <td>18</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg" alt="Cuiabá" height="20px" width="20px"> Cuiabá</td>
+            <td class="time"><img src="https://s.sde.globo.com/media/organizations/2018/12/26/Cuiaba_EC.svg" alt="Cuiabá" height="20px" width="20px"> Cuiabá</td>
             <td>27</td>
             <td>27</td>
             <td>6</td>
@@ -271,9 +273,9 @@
             <td>-8</td>
             <td>33</td>
         </tr>
-        <tr>
+        <tr class="rebaixamento">
             <td>19</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2020/07/02/atletico-go-2020.svg" alt="Atlético-GO" height="20px" width="20px"> Atlético-GO</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2020/07/02/atletico-go-2020.svg" alt="Atlético-GO" height="20px" width="20px"> Atlético-GO</td>
             <td>22</td>
             <td>26</td>
             <td>5</td>
@@ -284,9 +286,9 @@
             <td>-17</td>
             <td>28</td>
         </tr>
-        <tr>
+        <tr class="rebaixamento">
             <td>20</td>
-            <td><img src="https://s.sde.globo.com/media/organizations/2021/04/29/Juventude-2021-01.svg" alt="Juventude" height="20px" width="20px"> Juventude</td>
+            <td  class="time"><img src="https://s.sde.globo.com/media/organizations/2021/04/29/Juventude-2021-01.svg" alt="Juventude" height="20px" width="20px"> Juventude</td>
             <td>19</td>
             <td>27</td>
             <td>3</td>
@@ -300,8 +302,27 @@
 
     </tbody>
 </table>
+</div>
 </section>
 <hr>
+<div class="col-lg-10 col-lg-offset-1">
+    <ul class="caption championship">
+    <li class="green">LIBERTADORES</li>
+    <li class="orange">COPA SUL-AMERICANA</li>
+    <li class="red">REBAIXAMENTO</li>
+    </ul>
+    <ul class="caption">
+    <li>P: Pontos</li>
+    <li>J: Jogos</li>
+    <li>V: Vitórias</li>
+    <li>E: Empates</li>
+    <li>D: Derrotas</li>
+    <li>GP: Gols Pró</li>
+    <li>GC: Gols Contra</li>
+    <li>SG: Saldo de gols</li>
+    <li>%: Aproveitamento</li>
+    </ul>
+    </div>
     <footer>
         ©
         <script>
