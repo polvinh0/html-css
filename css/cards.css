@@ -1,0 +1,10 @@
+   body{
+    margin: 0;
+   }
+   section {
+       max-width: 1330px;
+       margin: 0;
+       padding: 30px;
+       background-color: aqua;
+    }
+    

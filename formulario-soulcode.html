@@ -1,112 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style-formulario.css">
 </head>
+
 <body>
-    <img src="img/light-logo.png" alt=""><br>
+    <header class="cabecalho">
+        <img src="img/light-logo.png" alt=""><br>
+
+    </header>
     <h1>Bem-vindo! Entre com seu email e senha</h1>
+    <div class="form">
+        <form action="">
+            <div>
+                <label for="campoEmail">Email</label><br>
+                <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required>
+            </div>
+            <div>
+                <label for="campoSenha">Senha</label><br>
+                <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" required>
+            </div>
+            <hr>
+            <div>
+                <button type="button">Login</button><br>
+                <input id="checkContinuarConectado" name="checkContinuarConectado" type="checkbox">
+                <label for="checkContinuarConectado">Continuar conectado?</label>
+            </div>
+        </form>
+           </div>
+    <container class="container">
+        <div class="tabela">
+            <table border="1" cellpadding="4" style="border-collapse: collapse">
+                <thead>
+                    <tr>
+                        <th colspan="2">Engenharia de Dados</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> <img src="img/Screenshot_4.jpg" alt="icone" height="30">Custo</td>
+                        <td style='color: #008CB1'><strong>Bolsa Integral</strong></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/Screenshot_5.jpg" alt="icone" height="30"> Prazo de Insrição</td>
+                        <td>até 03/10/2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_6.jpg" alt="icone" height="30"> Inicio do Curso</td>
+                        <td>até 17/10/2022</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_7.jpg" alt="icone" height="30"> Duração</td>
+                        <td>12 semanas</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_9.jpg" alt="icone" height="30"> Horario de Aula</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_11.jpg" alt="icone" height="30"> Formato de Aula</td>
+                        <td>Online e ao vivo</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_12.jpg" alt="icone" height="30"> Idioma</td>
+                        <td>Portugues</td>
+                    </tr>
 
-    <form action="">
-        <div>
-            <label for="campoEmail">Email</label><br>
-            <input id="campoEmail" name="campoEmail" type="email" placeholder="usuario@exemplo.com" required>
+                </tbody>
+            </table>
         </div>
-        <div>
-            <label for="campoSenha">Senha</label><br>
-            <input id="campoSenha" name="campoSenha" type="password" placeholder="Sua senha" required >
+
+        <div id="bc25" class="tabela">
+            <table border="1" cellpadding="4" style="border-collapse: collapse">
+                <thead>
+                    <tr>
+                        <th colspan="2">Desenvolvedor Java Full Stack</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td> <img src="img/Screenshot_4.jpg" alt="icone" height="30">Custo</td>
+                        <td style=" color: #008CB1"><strong>Bolsa Integral</strong></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/Screenshot_5.jpg" alt="icone" height="30"> Prazo de Insrição</td>
+                        <td>até 16/01/2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_6.jpg" alt="icone" height="30"> Inicio do Curso</td>
+                        <td>até 30/01/2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_7.jpg" alt="icone" height="30"> Duração</td>
+                        <td>16 semanas</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_9.jpg" alt="icone" height="30"> Horario de Aula</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_11.jpg" alt="icone" height="30"> Formato de Aula</td>
+                        <td>Online e ao vivo</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_12.jpg" alt="icone" height="30"> Idioma</td>
+                        <td>Portugues</td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
-        <hr>
-        <div>
-        <button type="button">Login</button><br>
-        <input id="checkContinuarConectado" name="checkContinuarConectado" type="checkbox">
-        <label for="checkContinuarConectado">Continuar conectado?</label>
+        <div class="tabela">
+            <table border="1" cellpadding="4" style="border-collapse: collapse">
+                <thead>
+                    <tr>
+                        <th colspan="2">Martech Academy</th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    <tr>
+                        <td> <img src="img/Screenshot_4.jpg" alt="icone" height="30">Custo</td>
+                        <td style=" color: #008CB1"><strong>Bolsa Integral</strong></td>
+                    </tr>
+                    <tr>
+                        <td> <img src="img/Screenshot_5.jpg" alt="icone" height="30"> Prazo de Insrição</td>
+                        <td>até 16/01/2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_6.jpg" alt="icone" height="30"> Inicio do Curso</td>
+                        <td>até 30/01/2023</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_7.jpg" alt="icone" height="30"> Duração</td>
+                        <td>12 semanas</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_9.jpg" alt="icone" height="30"> Horario de Aula</td>
+                        <td>8h as 18h</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_11.jpg" alt="icone" height="30"> Formato de Aula</td>
+                        <td>Online e ao vivo</td>
+                    </tr>
+                    <tr>
+                        <td><img src="img/Screenshot_12.jpg" alt="icone" height="30"> Idioma</td>
+                        <td>Portugues</td>
+                    </tr>
+
+                </tbody>
+            </table>
         </div>
-        <hr>
-    </form>
-    <table border="1" cellpadding="4" style="border-collapse: collapse">
-        <thead>
-            <tr>
-                <th colspan="2">Engenharia de Dados</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td> <img src="img/Screenshot_4.jpg" alt="icone" height="30">Custo</td>
-                <td   style= 'color: #008CB1'><strong>Bolsa Integral</strong></td>
-            </tr>
-            <tr>
-                <td> <img src="img/Screenshot_5.jpg" alt="icone" height="30"> Prazo de Insrição</td>
-                <td>até 03/10/2022</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_6.jpg" alt="icone" height="30"> Inicio do Curso</td>
-                <td>até 17/10/2022</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_7.jpg" alt="icone" height="30"> Duração</td>
-                <td>12 semanas</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_9.jpg" alt="icone" height="30"> Horario de Aula</td>
-                <td>8h as 18h</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_11.jpg" alt="icone" height="30"> Formato de Aula</td>
-                <td>Online e ao vivo</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_12.jpg" alt="icone" height="30"> Idioma</td>
-                <td>Portugues</td>
-            </tr>
+    </container>
 
-        </tbody>
-    </table>
-    <hr>
-    <table border="1" cellpadding="4" style="border-collapse: collapse" >
-        <thead>
-            <tr>
-                <th colspan="2">Desenvolvedor Java Full Stack</th>
-            </tr>
-        </thead>
-        <tbody>
-            
-            <tr>
-                <td> <img src="img/Screenshot_4.jpg" alt="icone" height="30">Custo</td>
-                <td   style=" color: #008CB1"><strong>Bolsa Integral</strong></td>
-            </tr>
-            <tr>
-                <td> <img src="img/Screenshot_5.jpg" alt="icone" height="30"> Prazo de Insrição</td>
-                <td>até 16/01/2023</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_6.jpg" alt="icone" height="30"> Inicio do Curso</td>
-                <td>até 30/01/2023</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_7.jpg" alt="icone" height="30"> Duração</td>
-                <td>16 semanas</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_9.jpg" alt="icone" height="30"> Horario de Aula</td>
-                <td>8h as 18h</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_11.jpg" alt="icone" height="30"> Formato de Aula</td>
-                <td>Online e ao vivo</td>
-            </tr>
-            <tr>
-                <td><img src="img/Screenshot_12.jpg" alt="icone" height="30"> Idioma</td>
-                <td>Portugues</td>
-            </tr>
-
-        </tbody>
-    </table>
-
-
-    
 </body>
+
 </html>
