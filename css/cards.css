@@ -1,10 +1,51 @@
-   body{
-    margin: 0;
-   }
-   section {
-       max-width: 1330px;
-       margin: 0;
-       padding: 30px;
-       background-color: aqua;
-    }
-    
+body {
+   background-image: url(dotabg.jpg);
+   background-size: cover;
+   /* background-repeat: repeat; */
+}
+h1{
+color: burlywood;
+justify-content: center;
+margin: auto;
+width: 1000px;
+}
+section {
+   display: flex;
+   justify-content: center;
+   /* align-items: center; */
+   box-sizing: border-box;
+   margin: auto;
+}
+article{
+   border: 10px solid #ddd;
+   border-radius: 40px;
+   width: 400px;
+   height: 590px;
+   background-color: rgba(221, 153, 229, 0.712);
+   margin: 20px;
+}
+ p{
+   box-sizing: border-box;
+   margin: auto;
+   padding:20px;
+   text-align: left;
+   color: rgb(0, 0, 0);
+   font-family: 'Roboto Mono', monospace;
+   font-weight: 700;
+   
+}
+.destaque{
+   text-align: right;
+   font-family: Impact, sans-serif;
+}
+
+img{
+   box-sizing: border-box;
+   border: 1px solid black;
+   border-radius: 35px;
+   width: 100%;
+   height: 250px;
+   position: static;
+   margin: auto;
+   padding: 0;
+}
