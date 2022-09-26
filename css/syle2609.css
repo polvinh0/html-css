@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.box-1 {
+    background-color: cadetblue;
+}
+
+.box-2 {
+    background-color: chocolate;
+}
+
+.box-3 {
+    background-color: tomato;
+}
+
+.box-4 {
+    background-color: steelblue;
+}
+
+.container-flex {
+    background-color: silver;
+    display: flex;  /* Ativa o flexbox */
+    flex-direction: column; /* Distribuição vertical e horinzotal*/
+    flex-wrap: wrap;/* Quebra "linha quando não tem espaço, cuida dos elementos no eixo principal*/
+    
+    align-items: center;
+    /*JUSTIFY-CONTENT: alinhamento do eixo principal (hori = row, vert = column)
+    space-between - espaço apenas entre cada elemento
+    space-around - espaço entre elementos e limites
+    space-evenly - espaço entre elementos e limites igual
+    center - centraliza o grupo de elementos*/
+    justify-content: center;
+    /*cuida dos elementos no eixo cross */
+    align-content: center;
+    /* cuida do "espaço extra" do container */
+    height: 650px; 
+    /* cria espaço extra entre os elementos */
+    gap: 16px;
+}
+
+.box-1, .box-2, .box-3, .box-4{
+    width: 300px;
+    padding: 8px;
+    border-radius: 8px;
+}
+.box-5 {
+    background-color: brown;
+    flex: 1;
+}
+
+.box-6 {
+    background-color: teal;
+    flex: 2;
+}
+
+.box-7 {
+    background-color: yellow;
+    width: 400px;
+}
+
+.container-flex-2 {
+    display:flex ;
+    background-color: orange;
+    height: 200px;
+    flex-wrap: wrap;
+}

@@ -46,21 +46,26 @@ th{
     border: 5px #f44336;
     
 }
+.teste {
+    border: 1px solid red;
+    border-radius: 8px;
+}
 table {
     background-color: white;
     padding: 10px;
     color: grey;
     border-collapse: collapse;
     margin: auto;
-    border: solid 1px #F5EBDC;
-    border-radius: 8px;
+    border: 1px solid #F5EBDC;
+    
     
 }
 .rodape{
     background-color: white;
     border: 1px;
     border-radius: 8px;
-    margin: 0px 40px 0px 40px;
+    margin: auto;
+    width: 1050px;
 }
 .legenda{
     color: gray;

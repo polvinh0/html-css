@@ -6,8 +6,8 @@ body {
 h1{
 color: burlywood;
 justify-content: center;
-margin: auto;
-width: 1000px;
+margin: 50px 20px 20px 550px;
+width: auto;
 }
 section {
    display: flex;
@@ -29,7 +29,6 @@ article{
    margin: auto;
    padding:20px;
    text-align: left;
-   color: rgb(0, 0, 0);
    font-family: 'Roboto Mono', monospace;
    font-weight: 700;
    
