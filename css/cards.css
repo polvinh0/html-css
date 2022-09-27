@@ -17,11 +17,11 @@ section {
    margin: auto;
 }
 article{
-   border: 10px solid #ddd;
-   border-radius: 40px;
+   border: 1px solid #ddd;
+   border-radius: 35px;
    width: 400px;
    height: 590px;
-   background-color: rgba(221, 153, 229, 0.712);
+   background-color: rgba(255, 255, 255, 0.712);
    margin: 20px;
 }
  p{
