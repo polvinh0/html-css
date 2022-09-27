@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.slowtail {
+    display: flex;
+    justify-content: center;
+}
+
+:root{
+    --azul: #0f637a;
+    --amarelo: #ffd900;
+}
+
+.navbar {
+    background-color: var(--azul);
+    display: flex;
+    min-height: 64px;
+    padding: 12px;
+    justify-content: space-between;
+    
+}
+
+.navbar a{
+        text-decoration: none;
+        color: white;
+        padding: 0 4px;
+}

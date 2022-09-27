@@ -21,6 +21,28 @@ Inspirações (não obrigatório seguir):
 </head>
 
 <body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-brand">
+            <img src="img/This_is_the_logo_for_The_International_(Dota_2).jpg" alt="Brand">
+            <span class="navbar-burger" onclick="ativaNavbar()">
+                &#8801
+            </span>
+        </div>
+            <div class="navbar-menu">
+            <a href="#" class="navbar-link">The International 2011</a>
+            <a href="#" class="navbar-link">The International 2012</a>
+            <a href="#" class="navbar-link">The International 2013</a>
+            <a href="#" class="navbar-link">The International 2014</a>
+            <a href="#" class="navbar-link">The International 2015</a>
+            <a href="#" class="navbar-link">The International 2016</a>
+            <a href="#" class="navbar-link">The International 2017</a>
+            <a href="#" class="navbar-link">The International 2018</a>
+            <a href="#" class="navbar-link">The International 2019</a>
+            <a href="#" class="navbar-link">The International 2020</a>
+        </div>
+        </nav>
+    </header>
     <div>
         <h1>MELHORES FINAIS DO THE INTERNATIONAL</h1>
     </div>
@@ -52,7 +74,11 @@ Inspirações (não obrigatório seguir):
             </div>
         </article>
     </section>
-
+    <script>
+        function ativaNavbar(){
+            document.querySelector(".navbar-menu").classList.toggle("ativa")
+        }
+    </script>
 </body>
 
 </html>

@@ -17,6 +17,7 @@ h1{
 }
 .container{
     display: flex;    
+    justify-content:  space-around;
 }
 .form{
     width:250px;
@@ -30,6 +31,7 @@ button {
     margin-bottom: 5px;
 }
 .tabela{
+    min-width: 290px;
     height: auto;
     margin: 25px;
     border: 1px solid;

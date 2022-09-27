@@ -40,16 +40,15 @@ th{
         text-align: left;
 }
 #tabela{
-    max-width:  1330px;
+    max-width:  652px;
     margin: 0 auto;
     padding: 30px;
-    border: 5px #f44336;
-    
+        
 }
-.teste {
-    border: 1px solid red;
+/* .teste {
+    border: 1px solid white;
     border-radius: 8px;
-}
+} */
 table {
     background-color: white;
     padding: 10px;
